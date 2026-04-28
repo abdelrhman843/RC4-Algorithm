@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="rc4_bits">
+        <item>3 bits</item>
+        <item>4 bits</item>
+        <item>5 bits</item>
+        <item>6 bits</item>
+        <item>7 bits</item>
+        <item>8 bits</item>
+    </string-array>
+</resources>
