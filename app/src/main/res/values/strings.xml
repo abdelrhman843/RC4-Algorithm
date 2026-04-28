@@ -3,6 +3,7 @@
     <string name="key_hint">Encryption Key</string>
     <string name="generate_key">Generate Random Key</string>
     <string name="message_hint">Message to Encrypt</string>
+    <string name="message_hint_decrypt">Message to Decrypt</string>
     <string name="bits_label">Select Bits:</string>
     <string name="show_result">Show Result</string>
     <string name="result_label">Result:</string>
@@ -10,4 +11,6 @@
     <string name="app_description">RC4 is a stream cipher designed by Ron Rivest. It is known for its simplicity and speed in software. This app allows you to encrypt and decrypt messages using custom bit sizes.</string>
     <string name="encryption_btn_text">Encryption</string>
     <string name="decryption_btn_text">Decryption</string>
+    <string name="copy_btn_text">Copy Result</string>
+    <string name="copied_to_clipboard">Copied to clipboard</string>
 </resources>

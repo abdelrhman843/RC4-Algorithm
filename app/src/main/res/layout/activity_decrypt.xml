@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="18dp"
-    tools:context=".MainActivity">
+    tools:context=".DecryptActivity">
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/keyInputLayout"
@@ -41,7 +41,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:hint="@string/message_hint"
+        android:hint="Message to Decrypt Ex: 100, 22, 35, 109"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/generateKeyBtn">
@@ -111,7 +111,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/resultLabel"
-        tools:text="Encrypted message will appear here..."
+        tools:text="Decrypted message will appear here..."
         tools:visibility="visible" />
 
     <Button
